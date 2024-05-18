@@ -30,4 +30,6 @@ int main()
     printf("\n");
     print_lobsters_result(no_of_lobsters,net_capacity,lobsters); // printing all the lobsters that are used
 
+
+    return 0;
 }
