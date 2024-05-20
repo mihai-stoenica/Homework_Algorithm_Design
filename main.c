@@ -21,7 +21,7 @@ int main()
 
 
     a_matrix matrix = generate_value_matrix(no_of_lobsters,net_capacity,lobsters); //calculating the matrix of values
-    //print_matrix(matrix);//printing the matrix                                     //for each i (from 0 to no of lobsters) and j (from 0 to net capacity) the corresponding cell from the matrix will have the highest total value using the first i lobsters not exceding the size j
+    print_matrix(matrix);//printing the matrix                                     //for each i (from 0 to no of lobsters) and j (from 0 to net capacity) the corresponding cell from the matrix will have the highest total value using the first i lobsters not exceding the size j
 
     printf("\n");
 
@@ -30,6 +30,8 @@ int main()
     printf("\n");
     print_lobsters_result(no_of_lobsters,net_capacity,lobsters); // printing all the lobsters that are used
 
+    printf("Press any key to close...");
+    getchar();
 
     return 0;
 }
