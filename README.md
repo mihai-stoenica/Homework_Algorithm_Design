@@ -5,7 +5,7 @@ There are several methods to compile and run this code:
   To test whether the installation worked or not open Cmd and type "gcc --version".
   If it worked, navigate to the root folder("Homework_Algorithm_Design") and type "gcc -o main.c lobsters.c datagenerator.c".
 3)Using CMake(https://cmake.org/download/)
-4)You can create a blank project in any compatible IDE and import the files: main.c, lobsters.c,datagenerator.c,lobsters.h,datagenerator.h
+4)You can create a blank project in any compatible IDE and import the files: main.c, lobsters.c,datagenerator.c,lobsters.h,datagenerator.h(make sure you check the Debug and Release options).
 
 Note: For a better visualization, you can minimize the range of the randomly generated values in datagenerator.c file.
   
